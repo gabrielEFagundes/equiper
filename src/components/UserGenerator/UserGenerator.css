@@ -1,0 +1,21 @@
+.container{ display: flex; justify-content: center; margin-top: 2rem; }
+select{ padding: 0.5rem; border-radius: 8px; border: 1px solid #fff; background-color: #000000; font-size: 1rem; color: #fff }
+
+.user-container { max-width: 600px; margin: 2rem auto; font-family: 'Segoe UI', sans-serif; }
+.user-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 1rem; }
+.found-talents { font-size: 0.8rem; color: #666 }
+.user-grid { display: grid; gap: 1rem; margin-top: 1.5rem; }
+.user-card { 
+  display: flex; align-items: center; gap: 1rem; padding: 1rem; 
+  background: #000000; border: 1px solid #e1e4e8; border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.special { border: 1px solid #ffef5c }
+.user-card:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05); }
+.user-card img { border-radius: 50%; border: 3px solid #ffffff; width: 60px; height: 60px; }
+.user-info strong { font-size: 1.1rem; color: #ffffff; }
+.user-info p { margin: 4px 0; color: #666; font-size: 0.9rem; }
+.user-info span { font-size: 0.8rem; color: #999; }
+.refresh-button { background: #ffffff; color: rgb(0, 0, 0); border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; }
+.refresh-button:disabled { background: #b8b8b8; }
